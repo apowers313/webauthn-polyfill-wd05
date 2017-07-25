@@ -1,0 +1,42 @@
+{
+  "name": "webauthn-polyfill",
+  "version": "0.0.1",
+  "description": "WebAuthn Polyfill -- work in progress",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "grunt default",
+    "docs": "jsdoc -c ./.jsdoc-conf.json",
+    "publish": "gh-pages --silent --repo https://$GH_TOKEN@github.com/apowers313/webauthn-polyfill-wd05.git --dist docs"
+  },
+  "keywords": [
+    "fido2",
+    "webauthn",
+    "polyfill",
+    "fido",
+    "authentication"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apowers313/webauthn-polyfill-wd05.git"
+  },
+  "author": "Adam Powers",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/apowers313/webauthn-polyfill-wd05/issues",
+    "email": "apowers@ato.ms"
+  },
+  "homepage": "https://github.com/apowers313/webauthn-polyfill-wd05#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-saucelabs": "^9.0.0",
+    "mocha": "^3.2.0",
+    "gh-pages": "^0.12.0",
+    "ink-docstrap": "^1.3.0",
+    "jsdoc": "^3.4.3"
+  }
+}
